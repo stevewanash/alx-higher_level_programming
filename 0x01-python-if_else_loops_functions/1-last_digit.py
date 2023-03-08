@@ -4,8 +4,8 @@ number = random.randint(-10000, 10000)
 last_digit = abs(number) % 10
 script = f"Last digit of {number} is {last_digit} and is"
 if last_digit == 0:
-    print(f"{script} 0\n")
+    print(f"{script} 0")
 elif last_digit < 6:
-    print(f"{script} less than 6 and not 0\n")
+    print(f"{script} less than 6 and not 0")
 else:
-    print(f"{script} greater than 5\n")
+    print(f"{script} greater than 5")
