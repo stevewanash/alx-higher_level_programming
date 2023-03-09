@@ -12,6 +12,6 @@ if __name__ == "__main__":
     if no_of_arg - 1 > 1:
         for i in range(1, no_of_arg):
             print("{pos}: {arg}".format(pos=counter, arg=sys.argv[i]))
-            counter += 1
+            counter = counter + 1
     elif no_of_arg - 1 == 1:
         print("{pos}: {arg}".format(pos=counter, arg=sys.argv[1]))
