@@ -33,6 +33,8 @@ listint_t *insert_node(listint_t **head, const int n)
 
                 i++;
             }
+            else
+                break;
         }
         new -> next = nav -> next;
 
