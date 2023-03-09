@@ -36,9 +36,18 @@ listint_t *insert_node(listint_t **head, const int n)
             else
                 break;
         }
-        new -> next = nav -> next;
+        if (i == 0)
+        {
+            *head = new;
 
-        nav -> next = new;
+            new -> next = nav;
+        }
+        else
+        {
+            new -> next = nav -> next;
+
+            nav -> next = new;
+        }
     }
     else
         *head = new;
