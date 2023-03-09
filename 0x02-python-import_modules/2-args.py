@@ -10,6 +10,6 @@ if __name__ == "__main__":
     else:
         print("{args} arguments:".format(args=no_of_arg))
     if no_of_arg > 0:
-        for i in range(no_of_arg):
+        for i in range(1, no_of_arg):
             print("{pos}: {arg}".format(pos=counter, arg=sys.argv[i]))
             counter = +1
