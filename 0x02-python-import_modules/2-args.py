@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 import sys
 counter = 1
 if __name__ == "__main__":
