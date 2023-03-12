@@ -7,4 +7,4 @@ if __name__ == '__main__':
         current = names[i]
         if current[0] == '_':
             continue
-        print("{name}".format(name=current), end='')
+        print("{name}".format(name=current))
