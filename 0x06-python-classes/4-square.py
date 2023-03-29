@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 """Create a class square"""
 
 
@@ -21,6 +21,7 @@ class Square:
         """
         return self.__size**2
 
+    @property
     def size(self):
         """
         Acts as a getter to retrieve size from attribute instance
@@ -29,6 +30,7 @@ class Square:
         """
         return self.__size
 
+    @size.setter
     def size(self, value):
         """
         Acts as a setter to set size for an attribure instance
