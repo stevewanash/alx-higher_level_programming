@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 """Create a class square"""
 
 
@@ -51,6 +51,9 @@ class Square:
             self.__size = value
 
     def my_print(self):
+        """
+        prints out the square
+        """
         if self.__size != 0:
             for i in range(self.__size):
                 for j in range(self.__size):
