@@ -55,6 +55,13 @@ This tests for None input
     Traceback (most recent call last):
     TypeError: a must be an integer
 
+This tests for float and negative number input
+
+::
+
+    >>> s(-2, 103.5)
+    101
+
 This tests for string literals
 
 ::
