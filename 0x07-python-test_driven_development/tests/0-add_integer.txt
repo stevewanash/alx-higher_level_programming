@@ -1,0 +1,8 @@
+This tests for integer input
+>>> s = __import__('0-add_integer').add_integer
+>>> s(2)
+100
+
+This tests for float input
+>>> s(2.000)
+100
