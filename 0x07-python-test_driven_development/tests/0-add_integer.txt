@@ -16,3 +16,7 @@ This test for boolean input
 >>> s(True)
 Traceback (most recent call last):
 TypeError: a must be an integer
+
+This test for negative input
+>>> s(-2)
+96
