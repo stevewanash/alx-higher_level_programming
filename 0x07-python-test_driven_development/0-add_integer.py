@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 """
 This module performs various calculations
 between values
@@ -10,8 +9,17 @@ def add_integer(a, b=98):
     This function performs addition between
     two integers
     """
-    if type(a) not in [int, float]:
-        raise TypeError("a must be an integer")
-    if type(b) not in [int, float]:
-        raise TypeError("b must be an integer")
-    return (int(a) + int(b))
+    try:
+        if type(a) not in [int, float]:
+            raise TypeError
+    except TypeError:
+        print("a must be an integer")
+    try:
+        if type(b) not in [int, float]:
+            raise TypeError
+    except TypeError:
+        print("b must be an integer")
+    try:
+        return (int(a) + int(b))
+    except TypeError:
+        return

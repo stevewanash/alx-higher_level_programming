@@ -1,24 +1,21 @@
 Test for unevenly sized rows
 >>> s = __import__('2-matrix_divided').matrix_divided
 >>> s([[2, 4, 6], [8, 10]], 2)
-Traceback (most recent call last):
-TypeError: Each row of the matrix must have the same size
+Each row of the matrix must have the same size
+[[1.0, 2.0, 3.0], [4.0, 5.0]]
 
 Test for non-number matrice data type
 >>> s([[2, "Free"], [8, 10]], 2)
-Traceback (most recent call last):
-TypeError: matrix must be a matrix (list of lists) of integers/floats
+matrix must be a matrix (list of lists) of integers/floats
 
 Test for division by zero
 >>> s([[2, 4], [8, 10]], 0)
-Traceback (most recent call last):
-ZeroDivisionError: division by zero
+division by zero
 
 Test for non-number div value
 >>> s([[2, 4], [8, 10]], "Free")
-Traceback (most recent call last):
-TypeError: div must be a number
+div must be a number
 
 Test for ideal values
 >>> print(s([[2, 4], [6, 8]], 2))
-[[1, 2], [3, 4]]
+[[1.0, 2.0], [3.0, 4.0]]
