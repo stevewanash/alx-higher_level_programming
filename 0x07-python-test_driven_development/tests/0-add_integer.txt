@@ -6,3 +6,13 @@ This tests for integer input
 This tests for float input
 >>> s(2.000)
 100
+
+This tests for string input
+>>> s("Free")
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+This test for boolean input
+>>> s(True)
+Traceback (most recent call last):
+TypeError: a must be an integer
