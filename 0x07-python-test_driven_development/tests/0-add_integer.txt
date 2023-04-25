@@ -20,3 +20,13 @@ TypeError: a must be an integer
 This test for negative input
 >>> s(-2)
 96
+
+This tests for no input
+>>> s()
+Traceback (most recent call last):
+TypeError: add_integer() missing 1 required positional argument: 'a'
+
+This tests for None input
+>>>s(None)
+Traceback (most recent call last):
+TypeError: a must be an integer
