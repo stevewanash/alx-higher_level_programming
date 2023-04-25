@@ -1,32 +1,56 @@
+NUMBERS
+=======
+
 This tests for integer input
->>> s = __import__('0-add_integer').add_integer
->>> s(2)
-100
+
+::
+
+    >>> s = __import__('0-add_integer').add_integer
+    >>> s(2)
+    100
 
 This tests for float input
->>> s(2.000)
-100
+
+::
+
+    >>> s(2.000)
+    100
+
+NON-NUMBERS
+===========
 
 This tests for string input
->>> s("Free")
-Traceback (most recent call last):
-TypeError: a must be an integer
+
+::
+
+    >>> s("Free")
+    Traceback (most recent call last):
+    TypeError: a must be an integer
 
 This test for boolean input
->>> s(True)
-Traceback (most recent call last):
-TypeError: a must be an integer
 
-This test for negative input
->>> s(-2)
-96
+::
+
+    >>> s(True)
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+    This test for negative input
+    >>> s(-2)
+    96
 
 This tests for no input
->>> s()
-Traceback (most recent call last):
-TypeError: add_integer() missing 1 required positional argument: 'a'
+
+::
+
+    >>> s()
+    Traceback (most recent call last):
+    TypeError: add_integer() missing 1 required positional argument: 'a'
 
 This tests for None input
->>> s(None)
-Traceback (most recent call last):
-TypeError: a must be an integer
+
+::
+
+    >>> s(None)
+    Traceback (most recent call last):
+    TypeError: a must be an integer
