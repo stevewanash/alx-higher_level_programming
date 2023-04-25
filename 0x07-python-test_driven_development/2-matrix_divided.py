@@ -38,6 +38,6 @@ def matrix_divided(matrix, div):
     except ZeroDivisionError:
         print("division by zero")
     try:
-        return [[int(j/2) for j in i] for i in matrix]
+        return [[round(j/div, 2) for j in i] for i in matrix]
     except (TypeError, ZeroDivisionError):
         return
