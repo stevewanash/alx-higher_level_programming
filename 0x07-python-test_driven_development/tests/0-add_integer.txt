@@ -27,6 +27,6 @@ Traceback (most recent call last):
 TypeError: add_integer() missing 1 required positional argument: 'a'
 
 This tests for None input
->>>s(None)
+>>> s(None)
 Traceback (most recent call last):
 TypeError: a must be an integer
