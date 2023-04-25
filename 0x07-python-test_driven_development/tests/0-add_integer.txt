@@ -54,3 +54,10 @@ This tests for None input
     >>> s(None)
     Traceback (most recent call last):
     TypeError: a must be an integer
+
+This tests for float and negative number input
+
+::
+
+    >>> s(-2, 103.5)
+    101
