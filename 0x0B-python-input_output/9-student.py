@@ -1,4 +1,4 @@
-##!/usr/bin/python3
+#!/usr/bin/python3
 """uses json for input and output
 """
 
