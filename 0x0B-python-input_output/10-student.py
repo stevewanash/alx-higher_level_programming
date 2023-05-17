@@ -29,8 +29,7 @@ class Student:
             instance
         """
         if attrs:
-            new_dict = {key: self.__dict__[key] for key in self.__dict__ if
-                        key in attrs}
-            return new_dict
+            return {key: self.__dict__[key] for key in self.__dict__ if key in
+                    attrs}
         else:
             return self.__dict__
