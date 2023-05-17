@@ -4,16 +4,13 @@
 
 
 def class_to_json(obj):
-    """returns json representation of instance
-    dictionary containing attributes and their
-    values
+    """returns dictonary representation of instance
 
     Args:
         obj (class): instance of a class
 
     Returns:
-        dict: json representation of the
-        generated dictionary containing
-        attributes and their values
+        dict: dictionary representation of the
+        instance
     """
     return obj.__dict__
