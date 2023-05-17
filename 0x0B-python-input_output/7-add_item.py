@@ -1,4 +1,4 @@
-#!/c/Users/pc/AppData/Local/Programs/Python/Python311/python
+#!/usr/bin/python3
 """input and output JSON
 """
 import sys
