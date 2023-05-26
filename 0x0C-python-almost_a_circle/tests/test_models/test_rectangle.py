@@ -34,7 +34,3 @@ class TestRectangle(unittest.TestCase):
         is called
         """
         self.assertEqual(self.r1.__str__(), "[Rectangle] (2) 2/2 - 2/2")
-
-
-if __name__ == '__main__':
-    unittest.main()

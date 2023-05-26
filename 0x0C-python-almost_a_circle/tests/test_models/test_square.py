@@ -14,7 +14,3 @@ class Test_square(unittest.TestCase):
         self.assertRaises(ValueError, Square, 0, 1, 1, 1)
         self.assertRaises(TypeError, Square, "hi", 1, 1, 1)
         self.assertRaises(ValueError, Square, -9, 1, 1, 1)
-
-
-if __name__ == '__main__':
-    unittest.main()
